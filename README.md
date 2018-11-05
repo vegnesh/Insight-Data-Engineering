@@ -35,8 +35,8 @@ If the assumptions stated in the previous sections are satisfied, you can execut
 
 * Following this, the key names are analyzed to ensure one can obtain the names used in CSV file for the state of work, SOC code, SOC name and the status of the application.
 
-* Using the column names obtained in the previous step, the data on state of work, SOC code and SOC name are stored only for certified applications and stored as a list
+* Using the column names obtained in the previous step, the data  on state of work, SOC code and SOC name is stored as a list only for certified applications.
 
-* Unique data values are obtained by converting the set to a list. Using this unique data the statistics information is collected.
+* Unique data values are obtained by converting the list to a set in Python3. Using these unique data values, the statistics information is collected.
 
 * Finally, the data is sorted based on the suggested scheme in the instructions and finally stored in the output files.
