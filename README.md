@@ -31,12 +31,12 @@ If the assumptions stated in the previous sections are satisfied, you can execut
 
 # Code Description
 
-The code loads the data present in the CSV file considering each data line as a dictionary. The key is given by the column name and the value is corresponding row value. It create a list of dictionaries to store data.
+* The code loads the data present in the CSV file considering each data line as a dictionary. The key is given by the column name and the value is corresponding row value. It create a list of dictionaries to store data.
 
-Following this, the key names are analyzed to ensure one can obtain the names used in CSV file for the state of work, SOC code, SOC name and the status of the application.
+* Following this, the key names are analyzed to ensure one can obtain the names used in CSV file for the state of work, SOC code, SOC name and the status of the application.
 
-Using the column names obtained in the previous step, the data on state of work, SOC code and SOC name are stored only for certified applications and stored as a list
+* Using the column names obtained in the previous step, the data on state of work, SOC code and SOC name are stored only for certified applications and stored as a list
 
-Unique data values are obtained by converting the set to a list. Using this unique data the statistics information is collected.
+* Unique data values are obtained by converting the set to a list. Using this unique data the statistics information is collected.
 
-Finally, the data is sorted based on the suggested scheme in the instructions and finally stored in the output files.
+* Finally, the data is sorted based on the suggested scheme in the instructions and finally stored in the output files.
